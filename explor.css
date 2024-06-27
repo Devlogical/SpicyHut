@@ -1,0 +1,16 @@
+body{
+    font-family: 'poppins','sans-serif';
+}
+.card{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.card img:hover{
+    transform: scale(1.13);
+    transition: all 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}

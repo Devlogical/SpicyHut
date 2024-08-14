@@ -1,5 +1,8 @@
 body{
     font-family: 'poppins','sans-serif';
+    background-image: radial-gradient(rgba(128, 128, 128, 0.793),rgba(245, 245, 245, 0.804),rgba(255, 255, 0, 0.634));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .card{
     overflow: hidden;
@@ -14,3 +17,49 @@ body{
 html{
     scroll-behavior: smooth;
 }
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav a:hover,
+nav a:focus{
+    color: #fff;
+    text-decoration: underline;
+}
+p a{
+    color: #333;
+}
+.upper{
+    text-align: right;
+    padding: 50px;
+    position: sticky;
+    top:400px;
+    left: 100px;
+    font-weight: bolder; 
+ 
+}
+.upper a{
+    border: 2px solid #333;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.form-label.error input{
+    border-color: rgb(206,67,67);;
+}
+.logo{
+   margin-left: 70px;
+   margin-top: 10px;
+}
+.logo i{
+    margin-left: 1.5rem;
+}
+.logo p{
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+}
+.warp .button{
+    flex-wrap: nowrap;
+}
+
